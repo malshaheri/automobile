@@ -227,6 +227,72 @@ header {
 
 }
 
+table {
+  border-collapse: collapse;
+}
+
+  #activerow {
+      border: 0.5px solid #41d3e3;
+  }
+
+  #activerow > td {
+      color: #41d3e3;
+      font-weight: 600;
+  }
+
+  #activerow > td > span {
+      color: #41d3e3;
+  }
+
+  /* Design der Tabelle */
+  .opening-hours {
+      overflow: hidden;
+      padding: 1em;
+      max-width: 450px;
+      min-width: 320px;
+  }
+
+
+  .fvl-d > td {
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      color: #A299AC;
+      text-transform: uppercase;
+      padding: 1em;
+  }
+
+  .fvl-d > td > span {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      color: #A299AC;
+      text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 382px) {
+
+.fvl-d > td {
+      font-size: 14px;
+      padding: 15px 5px;
+  }
+
+ #activerow {
+      border: none;
+      background-color: #8CC63F;
+  }
+
+  #activerow > td {
+      color: white;
+      font-weight: 600;
+  }
+
+  #activerow > td > span {
+      color: white;
+  }
+
+}
+
 @media screen and (max-width: 960px) {
   .service-box {
     max-width: 45%;
